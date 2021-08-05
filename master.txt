@@ -1,1 +1,2 @@
 1.local update @master
+2. guest
