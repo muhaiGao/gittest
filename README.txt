@@ -6,3 +6,4 @@ git@github.com:muhaiGao/gittest.git
 5.Study hard.
 6.merge by pull
 7.Edited by github
+8.Edited by git
