@@ -5,3 +5,4 @@ git@github.com:muhaiGao/gittest.git
 4.Feel good today.
 5.Study hard.
 6.merge by pull
+7.Edited by github
