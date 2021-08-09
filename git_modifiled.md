@@ -16,6 +16,11 @@
 *用git reflog 查看命令历史，以便确定要回到哪个版本*
 *可以使用:git reset --hard HEAD^ 或 git reset --hard HEAD~<num>;*
 
+## 新版本git推荐的命令：git restore：
+* 在旧版本中，git的撤销工作区的文件修改是用git checkout -- <file>命令，由于容易漏了--导致和切换分支混肴，所以新版本中:
 
++ - 使用git restore (--worktree) <file>命令从暂存区恢复工作区
++ - 使用git restore --staged <file>从当前版本库中恢复暂存区
++ - 使用git restore --source=HEAD --staged --worktree <file>从当前版本库中同时恢复工作区和暂存区
 
 
